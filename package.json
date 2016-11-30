@@ -1,6 +1,6 @@
 {
 	"name": "flash-fiction",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Flash messages middleware for Express/Connect with support for redirects and immediate use. Useful for informational or errors messages. Like Rails's Flash.",
 	"keywords": [
 		"cookie",
