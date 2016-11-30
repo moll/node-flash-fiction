@@ -1,0 +1,42 @@
+{
+	"name": "flash-fiction",
+	"version": "0.0.0",
+	"description": "Flash messages middleware for Express/Connect with support for redirects and immediate use. Useful for informational or errors messages. Like Rails's Flash.",
+	"keywords": [
+		"cookie",
+		"cookies",
+		"express",
+		"connect",
+		"flash"
+	],
+	"homepage": "https://github.com/moll/node-flash-fiction",
+	"bugs": "https://github.com/moll/node-flash-fiction/issues",
+
+	"author": {
+		"name": "Andri Möll",
+		"email": "andri@dot.ee",
+		"url": "http://themoll.com"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/moll/node-flash-fiction.git"
+	},
+
+	"licenses": [{
+		"type": "LAGPL",
+		"url": "https://github.com/moll/node-flash-fiction/blob/master/LICENSE"
+	}],
+
+	"main": "flash.js",
+	"scripts": {"test": "make test"},
+
+	"dependencies": {
+		"on-headers": "^1"
+	},
+
+	"devDependencies": {
+		"mocha": ">= 2 < 4",
+		"must": ">= 0.13.0 < 0.14"
+	}
+}
